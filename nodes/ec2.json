@@ -1,5 +1,6 @@
 {
     "run_list":[
-        "yum::epel"
+        #"recipe[yum_update]",
+        #"yum::epel"
     ]
 }

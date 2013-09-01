@@ -16,6 +16,7 @@
         }
     },
     "run_list":[
+        "recipe[plenv_kamesho]",
         "recipe[iptables]",
         "memcached",
         "recipe[mysql::server]"

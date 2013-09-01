@@ -1,6 +1,5 @@
 {
     "run_list":[
-        #"recipe[yum_update]",
-        #"yum::epel"
+        "recipe[iptables]"
     ]
 }

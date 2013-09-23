@@ -16,6 +16,8 @@
         }
     },
     "run_list":[
+        "mkswap",
+        "base_packages",
         "recipe[plenv_kamesho]",
         "recipe[iptables]",
         "memcached",

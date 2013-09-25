@@ -21,6 +21,7 @@
         "base_packages",
         "recipe[plenv_kamesho]",
         "recipe[iptables]",
+        "recipe[redis]",
         "memcached",
         "recipe[mysql::server]"
     ]
